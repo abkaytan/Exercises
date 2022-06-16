@@ -1,6 +1,5 @@
-package regexCalisma;
+package regexWorks;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

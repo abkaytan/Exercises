@@ -1,4 +1,4 @@
-package regexCalisma;
+package regexWorks;
 
 import java.util.regex.*;
 
