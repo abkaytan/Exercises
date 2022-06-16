@@ -29,12 +29,11 @@ class Utils {
     public static boolean isVariable(String s) {
         //String patternStr = "^[a-z_A-Z][a-zA-Z0-9]*$";
         String patternStr = "^[a-z_A-Z][a-zA-Z0-9]+$";
+        //String patternStr = "^[a-z_A-ZçÇğĞıİöÖüÜ][a-zA-Z0-9çÇğĞıİöÖüÜ]*$"; // turkish characters version
         Pattern pattern = Pattern.compile(patternStr);
         Matcher m = pattern.matcher(s);
 
-        if (m.find()) {
-            return true;
-        } else {return false;}
+        return m.find();
 
         /*int count = 0;
 
