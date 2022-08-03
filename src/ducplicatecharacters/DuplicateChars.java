@@ -12,9 +12,6 @@ public class DuplicateChars {
 
         char[] charS = str.toLowerCase().toCharArray();
         Arrays.sort(charS);
-        List<String> asd = new ArrayList<>();
-        /*String sorted = new String(charS);
-        System.out.println(sorted); */
 
         StringBuilder result= new StringBuilder("");
 
@@ -31,11 +28,9 @@ public class DuplicateChars {
                 }
                 if(count>1) {
                     result.append(checker).append(count);
-                    //result.append(checker);
                 }
             }
         }
-
         str = result.toString();
         return str;
     }
