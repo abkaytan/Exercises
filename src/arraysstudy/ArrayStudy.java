@@ -51,6 +51,18 @@ public class ArrayStudy {
         List<Integer> list3 = Arrays.asList(array2);
         System.out.println(list3);
 
+        int[] array5 = {34,89};
+        int[] array6 = {89,34};
+        System.out.println(Arrays.equals(array5, array6));
+
+        int[] array7;
+        array7 = new int[]{3,7,2,8,1,0,5,4,9};
+        Arrays.sort(array7,2,5);
+        System.out.println(array7.length);
+        for(int n: array7){
+            System.out.print(n + ",");
+        }
+
     }
 
 
